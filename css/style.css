@@ -1,0 +1,36 @@
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width:1200px) {
+    .container{
+        max-width: 1180px;
+    }
+}
+@media (min-width:992px) {
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:768px) {
+    .container{
+        width: 748px;
+    }
+}
+@media (min-width:576px) {
+    .container{
+        width: 556px;
+    }
+}
+@media (max-width:575px) {
+    .container{
+        max-width: 540px;
+    }
+}
+
+/* .banner{
+    background-image: url(../images/banner.jpg);
+} */
+
